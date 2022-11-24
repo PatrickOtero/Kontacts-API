@@ -1,5 +1,5 @@
 # Kontacts-API
-Back-end para fazer o app "Kontacts".
+Back-end para o app "Kontacts".
 
 - Repositório front-end: https://github.com/PatrickOtero/Kontacts-App
 
