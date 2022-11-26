@@ -8,7 +8,7 @@ const listarContatos = async (req, res) => {
   const contatosUsuario = contatos.filter(
     (contato) => contato.usuario_id === usuario.id
   );
-
+  
   return res.status(200).json(contatosUsuario);
 };
 

@@ -21,8 +21,6 @@ const login = async (req, res) => {
 
     const usuario = emailExiste;
 
-    console.log(usuario);
-
     const senhaCorreta = await bcrypt.compare(senha, usuario.senha);
 
     if (!senhaCorreta) {
